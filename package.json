@@ -5,5 +5,8 @@
   "repository": "git@github.com:donald-m/sunriseafrica.org.uk.git",
   "author": "Donald MacAlpine <git@donaldm.co.uk>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
 }
