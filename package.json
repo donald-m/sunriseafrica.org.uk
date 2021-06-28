@@ -1,0 +1,9 @@
+{
+  "name": "sunriseafrica.org.uk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:donald-m/sunriseafrica.org.uk.git",
+  "author": "Donald MacAlpine <git@donaldm.co.uk>",
+  "license": "MIT",
+  "private": true
+}
