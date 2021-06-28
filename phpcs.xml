@@ -1,23 +1,13 @@
 <?xml version="1.0"?>
-<ruleset name="Roots">
-  <description>Roots Coding Standards</description>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="WordPress" namespace="WordPressCS\WordPress" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
 
-  <!-- Scan all files in directory -->
-  <file>.</file>
+	<description>WordPress Coding Standards</description>
 
-  <!-- Scan only PHP files -->
-  <arg name="extensions" value="php"/>
+	<!--
+	Included via WordPress-Extra.
+	<rule ref="WordPress-Core"/>
+	-->
+	<rule ref="WordPress-Docs"/>
+	<rule ref="WordPress-Extra"/>
 
-  <!-- Ignore WordPress and Composer dependencies -->
-  <exclude-pattern>web/wp</exclude-pattern>
-  <exclude-pattern>vendor/</exclude-pattern>
-
-  <!-- Show colors in console -->
-  <arg value="-colors"/>
-
-  <!-- Show sniff codes in all reports -->
-  <arg value="ns"/>
-
-  <!-- Use PSR-2 as a base -->
-  <rule ref="PSR2"/>
 </ruleset>
